@@ -1,4 +1,4 @@
-# {Choosing a development language}
+# Choosing a development language
 
 ## Context and Problem Statement
 
