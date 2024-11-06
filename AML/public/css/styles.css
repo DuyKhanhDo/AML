@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}
+
+.navbar {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    position: relative;
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-sidebar-open {
+    position: absolute;
+    margin-left: 10px;
+    left: 0;
+    height: 100%;
+    color: white;
+}
+
+.navbar-title {
+    text-align: center;
+    flex: 1;
+    color: white;
+}
+
+.navbar-search {
+    position: absolute;
+    margin-right: 10px;
+    right: 0;
+    min-width: 10vw;
+    border-radius: 5px;
+    height: 60%;
+    border: none;
+    outline: none;
+}
+
+.navbar-search::placeholder {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.sidebar {
+    width: 20vw;
+    height: 100vh;
+    background-color: gray;
+}
+
+#sidebar-link {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgb(150, 150, 150);
+    width: 90%;
+    height: 5vh;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+#sidebar-link > * {
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.sidebar-links-bottom {
+    display: flex;
+    flex-direction: column; /* Stack bottom links vertically */
+    margin-top: auto; /* Pushes this section to the bottom */
+    height: 100%;
+    width: 100%;
+}
+
+.sidebar-link-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(100, 100, 100); /* Optional different color for bottom links */
+    width: 90%; /* Adjust width of each bottom link */
+    height: 5vh;
+    margin: 10px auto;
+    border-radius: 15px;
+    margin-top: auto;
+}
