@@ -1,0 +1,13 @@
+# Choosing framework for CSS of AML
+
+## Context and Problems Statement
+    
+For AML project, we require a CSS framework that will support a clean, responsive design and allow for customization while being efficient in handling large-scale front-end needs. The CSS framework must integrate seamlessly with our Laravel-based backend and help us build an intuitive user interface.
+### Considered Option 
+
+-Boostrap
+-Tailwind
+-React
+#### Decision Outcome
+
+Chosen Option: "Tailwind". offers a powerful, efficient setup. Its utility-first approach enables rapid styling with out-of-the-box classes, integrating seamlessly with Laravel Mix for easy asset compilation. Tailwind’s PurgeCSS feature minimizes file sizes by removing unused styles, keeping your CSS light and fast. Highly customizable, Tailwind provides flexibility for unique designs without losing consistency, making it ideal for quick prototyping and scalable applications.
